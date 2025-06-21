@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Osman - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .skill-dots {
+            display: flex;
+            gap: 4px;
+        }
+        .skill-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #e5e7eb;
+        }
+        .skill-dot.filled {
+            background-color: #f59e0b;
+        }
+        @media (max-width: 768px) {
+            .cv-container {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <div class="container mx-auto max-w-6xl p-6 md:p-8">
+        <div class="cv-container bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+            <!-- Left Column -->
+            <div class="left-column bg-gray-100 p-8 w-full md:w-1/3">
+                <div class="flex flex-col items-center mb-8">
+                    <div class="w-32 h-32 rounded-full bg-gray-300 mb-4 overflow-hidden">
+                        <img src="profile.jpg" alt="Muhammed Osman" class="w-full h-full object-cover">
+                    </div>
+                    <h1 class="text-2xl font-bold text-gray-800">Muhammed Osman</h1>
+                    <p class="text-gray-600">Graduated 2024</p>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-800 mb-2 flex items-center">
+                            <i class="fas fa-calendar-day mr-2 text-yellow-500"></i> Birthdate
+                        </h2>
+                        <p class="text-gray-700">14-10-2005</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-800 mb-2 flex items-center">
+                            <i class="fas fa-graduation-cap mr-2 text-yellow-500"></i> Education
+                        </h2>
+                        <p class="text-gray-700">Blnd Private High School – 2024</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-800 mb-2 flex items-center">
+                            <i class="fas fa-phone mr-2 text-yellow-500"></i> Contact
+                        </h2>
+                        <p class="text-gray-700">+964 773 042 5022</p>
+                        <p class="text-gray-700">mohmad.9089.osman@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-800 mb-2 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-yellow-500"></i> Location
+                        </h2>
+                        <p class="text-gray-700">Sulaymani/Xabat</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column p-8 w-full md:w-2/3">
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200 flex items-center">
+                        <i class="fas fa-user mr-2 text-yellow-500"></i> About Me
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Proficient in communication, fluent in English and Arabic, graduated in 2024 with good computer skills. 
+                        Possesses a car for transportation. A motivated individual with diverse skills and work experience.
+                    </p>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200 flex items-center">
+                        <i class="fas fa-briefcase mr-2 text-yellow-500"></i> Work Experience
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-shopping-bag text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Sales</h3>
+                                <p class="text-gray-600 text-sm">Retail and customer service</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-store text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Store Management</h3>
+                                <p class="text-gray-600 text-sm">Inventory and operations</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-tshirt text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Clothing Business</h3>
+                                <p class="text-gray-600 text-sm">Fashion retail</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-industry text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Factory Work</h3>
+                                <p class="text-gray-600 text-sm">Production and manufacturing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200 flex items-center">
+                        <i class="fas fa-language mr-2 text-yellow-500"></i> Languages
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Kurdish</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                            <p class="text-gray-600 text-xs mt-1">Native</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Arabic</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot"></div>
+                                <div class="skill-dot"></div>
+                                <div class="skill-dot"></div>
+                            </div>
+                            <p class="text-gray-600 text-xs mt-1">Fluent</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">English</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot"></div>
+                            </div>
+                            <p class="text-gray-600 text-xs mt-1">Advanced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200 flex items-center">
+                        <i class="fas fa-tools mr-2 text-yellow-500"></i> Skills
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Time Management</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Teamwork</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Public Relations</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Leadership</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">MS Office</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Cooking</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1">Driving License</h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-1"></h3>
+                            <div class="skill-dots">
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                                <div class="skill-dot filled"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Any initialization code can go here
+            console.log('CV page loaded');
+        });
+    </script>
+    
+    <footer class="bg-gray-100 py-4 mt-8">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.instagram.com/muhammed__jaff/?hl=en" class="text-gray-600 hover:text-pink-500">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="https://www.facebook.com/share/18tC37w251/?mibextid=wwXIfr" class="text-gray-600 hover:text-blue-400">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="https://t.me/HamaaJAFF" class="text-gray-600 hover:text-gray-700">
+                    <i class="fab fa-telegram text-xl"></i>
+                </a>
+            </div>
+          <p style="border-radius: 80px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 50px;">Made with <im  alt="galaxy" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:30px;filter:brightness(0) invert(1);"><a href="https://www.instagram.com/p/DJhzhVjM4h2/?hl=en" style="color: #ffffff;text-decoration: underline;" target="_blank" >HamaJAFF</a></p></body>
+            <p class="mt-2 text-sm text-gray-500">© 2024 Muhammed Osman. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
